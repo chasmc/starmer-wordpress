@@ -10,7 +10,7 @@
       <?php wp_nav_menu(); ?>
     </nav>
 
-    <p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
+    <p class ="copyright"><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
   </footer>
 
 </div> <!-- container -->
