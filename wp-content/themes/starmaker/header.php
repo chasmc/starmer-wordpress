@@ -25,9 +25,11 @@
           <?php wp_nav_menu(); ?>
         </nav>
         <ul class= "albums-contain">
-          <!-- <li class= "albums-title">Albums</li> -->
-          <li class= "albums-list"><a class ="albums-link" href ="https://joshuastarmer.bandcamp.com/album/postcards-from-home-volume-1" target ="_blank"><img class ="albums" src ="wp-content/themes/starmaker/images/starmer_itunes_cover_v1.jpg"></a></li>
-          <li class= "albums-list"><a class ="albums-link" href ="https://joshuastarmer.bandcamp.com/album/germany-zulu" target ="_blank"><img class ="albums" src ="wp-content/themes/starmaker/images/joshua_starmer_germany_cover_v1.png"></a></li>
-          <li class= "albums-list"><a class ="albums-link" href ="https://joshuastarmer.bandcamp.com/album/starmakers" target ="_blank"><img class ="albums" src ="wp-content/themes/starmaker/images/STARMaKers_1400x1400_300dpi.jpg"></a></li>
+          <li class= "albums-title">Albums</li>
+          <li class= "albums-list"><a class ="albums-link" href ="https://joshuastarmer.bandcamp.com/album/postcards-from-home-volume-1" target ="_blank"><img class ="albums" src ="<?php echo get_bloginfo('template_url') ?>/images/starmer_itunes_cover_v1.jpg"></a></li>
+
+          <li class= "albums-list"><a class ="albums-link" href ="https://joshuastarmer.bandcamp.com/album/germany-zulu" target ="_blank"><img class ="albums" <img class ="albums" src ="<?php echo get_bloginfo('template_url') ?>/images/joshua_starmer_germany_cover_v1.png"></a></li>
+
+          <li class= "albums-list"><a class ="albums-link" href ="https://joshuastarmer.bandcamp.com/album/starmakers" target ="_blank"><img class ="albums" <img class ="albums" src ="<?php echo get_bloginfo('template_url') ?>/images/STARMaKers_1400x1400_300dpi.jpg"></a></li>
         </ul>
       </header>
