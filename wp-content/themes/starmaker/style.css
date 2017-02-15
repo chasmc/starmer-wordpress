@@ -30,7 +30,11 @@ body{
 }
 /*contains from header to footer*/
 .main-contain{
+<<<<<<< HEAD
   margin:0;
+=======
+  margin:0 10%;
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
 }
 
 /*title and nav*/
@@ -43,10 +47,17 @@ body{
   display:inline-block;
   margin:0 auto;
   text-transform:uppercase;
+<<<<<<< HEAD
   font-size:2.5rem;
   margin-top:20px;
   border-bottom:1px solid white;
   padding-bottom:.6%;
+=======
+  font-size:37px;
+  margin-top:20px;
+  border-bottom:1px solid white;
+  padding-bottom:1%;
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
   font-weight:700;
 }
 /*nav*/
@@ -79,6 +90,7 @@ a:hover{
   -webkit-transition:.5s;
   transition:.5s;
 }
+<<<<<<< HEAD
 
 /*begin index styles*/
 /*title and content container*/
@@ -90,6 +102,18 @@ a:hover{
   font-size:.9rem;
   padding:5%;
   background-color:rgba(0, 0, 0, .3);
+=======
+/*begin index styles*/
+/*title and content container*/
+.blog-post{
+  margin:0 auto;
+  margin-top:120px;
+  color:white;
+  font-size:.9rem;
+  padding:5%;
+  background-color:rgba(0, 0, 0, .5);
+  max-width:27rem;
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
 }
 /*blog post title*/
 .blog-post-title{
@@ -97,6 +121,7 @@ a:hover{
   color:#908972;
   margin-bottom:20px;
 }
+<<<<<<< HEAD
 /*begin albums*/
 .albums-contain{
   position:fixed;
@@ -146,17 +171,29 @@ a:hover{
 /*begin live page styles*/
 /*title and content container*/
 .live-post{
+=======
+/*begin live page styles*/
+/*title and content container*/
+.live-post{
+  margin:0 auto;
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
   margin-top:40px;
   color:white;
   text-align:center;
   line-height:2.5rem;
   font-size:25px;
+<<<<<<< HEAD
+=======
+  padding:5%;
+  width:55%;
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
 }
 
 .live-post-title{
   text-transform:uppercase;
   color:#908972;
   margin-bottom:20px;
+<<<<<<< HEAD
   font-size:1.5rem;
   display:inline-block;
   border-bottom:1px solid white;
@@ -171,11 +208,21 @@ a:hover{
 .about-post{
   margin:0 auto;
   margin-top:30px;
+=======
+}
+
+/*begin about page styles*/
+/*title and content container*/
+.about-post{
+  margin:0 auto;
+  margin-top:40px;
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
   color:white;
   text-align:center;
   line-height:2.5rem;
   font-size:20px;
   padding:5%;
+<<<<<<< HEAD
   background-color:rgba(0, 0, 0, .3);
   width:45%;
   overflow:hidden;
@@ -183,20 +230,31 @@ a:hover{
 
 .about-post:last-child{
   margin-top:0;
+=======
+  max-width:90%;
+  /*background-color:rgba(0, 0, 0, .5);*/
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
 }
 
 .about-post-title{
   text-align:center;
   text-transform:uppercase;
   color:#908972;
+<<<<<<< HEAD
   font-size:1.5rem;
   display:inline-block;
   border-bottom:1px solid white;
+=======
+  background-color:rgba(0, 0, 0, .5);
+  border-bottom:1px solid white;
+  border-top:1px solid white;
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
 }
 
 .copyright{
   color:white;
   text-align:center;
+<<<<<<< HEAD
   margin-top:20px;
   clear:both;
 }
@@ -231,4 +289,6 @@ a:hover{
   ul{
     margin-top:5%;
   }
+=======
+>>>>>>> 8e35fe1682194a6c1d71bb7cb1f128fcf1ee94e5
 }
