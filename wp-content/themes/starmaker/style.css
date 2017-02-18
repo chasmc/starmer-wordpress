@@ -87,8 +87,8 @@ color:white;
 /*title and content container*/
 .blog-post{
   margin-top:80px;
-  margin-left:27%;
-  width:45%;
+  margin-left:30%;
+  width:40%;
   color:white;
   font-size:.9rem;
   padding:5%;
@@ -134,8 +134,8 @@ color:white;
 }
 
 .albums-list:hover{
-  -webkit-transform:scale(1.4);
-          transform:scale(1.4);
+  -webkit-transform:scale(1.2);
+          transform:scale(1.2);
                   -webkit-transition:1s;
                   transition:1s;
 }
