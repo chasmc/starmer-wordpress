@@ -88,13 +88,15 @@ color:white;
 .blog-post{
   margin-top:80px;
   margin-left:30%;
-  width:40%;
+  max-width:40%;
+  overflow: hidden;
   color:white;
   font-size:.9rem;
   padding:5%;
   background-color:rgba(0, 0, 0, .3);
   /*border-top:1px solid white;*/
 }
+
 /*blog post title*/
 .blog-post-title{
   text-transform:uppercase;
@@ -177,17 +179,11 @@ color:white;
 .about-contain{
   padding:5%;
 }
-/*title and content container*/
-.about-post{
-  margin:0 auto;
-  margin-top:30px;
-}
 
-/*begin about page styles*/
 /*title and content container*/
 .about-post{
   margin:0 auto;
-  margin-top:40px;
+  margin-top:20px;
   margin-bottom:20px;
   color:white;
   text-align:center;
@@ -206,11 +202,12 @@ color:white;
 }
 
 .about-post-title{
-  text-align:center;
+  /*text-align:center;
   text-transform:uppercase;
   color:#908972;
   font-size:1.5rem;
-  display:inline-block;
+  display:inline-block;*/
+  display:none;
 }
 
 .copyright{

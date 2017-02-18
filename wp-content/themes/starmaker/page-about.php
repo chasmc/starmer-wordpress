@@ -8,12 +8,11 @@ if(have_posts()) :
     <article class= "about-post">
       <h2 class ="about-post-title">About</h2>
       <p class ="about-content"><?php the_content(); ?></p>
-      <p class ="about-content"><a href ="">Statquest</a></p>
     </article>
 
     <article class= "about-post">
       <h2 class ="about-post-title">Contact</h2>
-      <p class ="about-content">Booking:</p>
+      <p class ="about-content">Contact: joshuastarmer@gmail.com</p>
     </article>
   </div>
 
