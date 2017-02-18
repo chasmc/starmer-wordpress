@@ -1,3 +1,5 @@
+<!-- live page -->
+
 <?php
 get_header();
 
