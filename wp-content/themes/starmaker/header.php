@@ -24,6 +24,8 @@
 
           <?php wp_nav_menu(); ?>
         </nav>
+
+        <!-- albums -->
         <ul class= "albums-contain">
           <li class= "albums-title">Albums</li>
           <li class= "albums-list"><a class ="albums-link" href ="https://joshuastarmer.bandcamp.com/album/postcards-from-home-volume-1" target ="_blank"><img class ="albums" src ="<?php echo get_bloginfo('template_url') ?>/images/starmer_itunes_cover_v1.jpg"></a></li>

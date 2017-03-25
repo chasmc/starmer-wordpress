@@ -9,11 +9,6 @@ if(have_posts()) :
       <h2 class ="about-post-title">About</h2>
       <p class ="about-content"><?php the_content(); ?></p>
     </article>
-
-    <article class= "about-post">
-      <h2 class ="about-post-title">Contact</h2>
-      <p class ="about-content">Contact: joshuastarmer@gmail.com</p>
-    </article>
   </div>
 
   <?php endwhile;

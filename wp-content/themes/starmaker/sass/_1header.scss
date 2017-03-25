@@ -1,0 +1,53 @@
+/*contains from header to footer*/
+.main-contain{
+  margin:0;
+}
+
+.site-header{
+  margin-top:50px;
+  text-align:center;
+
+  .joshtitle{
+    display:inline-block;
+    text-transform:uppercase;
+    font-size:2.5rem;
+    margin-top:20px;
+    border-bottom:1px solid white;
+    padding-bottom:.6%;
+    font-weight:700;
+  }
+}
+
+ul{
+  text-align:center;
+  padding:0;
+  margin:0;
+}
+
+.site-nav ul li{
+  list-style:none;
+  display:inline-block;
+  padding:1.5%;
+  padding-top:1%;
+  font-size:1.5rem;
+  text-transform:uppercase;
+}
+
+.site-nav ul li:last-child{
+  display:none;
+}
+
+a{
+  text-decoration:none;
+  color:#908972;
+}
+
+a:hover{
+  color:white;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+li.current-menu-item a{
+  color:white;
+}

@@ -1,0 +1,20 @@
+.about-contain{
+  padding:5%;
+
+  .about-post{
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:white;
+    text-align:center;
+    line-height:2.5rem;
+    font-size:20px;
+    padding:5%;
+    background-color:rgba(0, 0, 0, .3);
+    width:45%;
+
+    .about-post-title{
+      display:none;
+    }
+  }
+}

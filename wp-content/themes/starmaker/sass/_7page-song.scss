@@ -1,0 +1,18 @@
+.song-post{
+  margin:0 auto;
+  margin-top:10px;
+  color:white;
+  text-align:left;
+  line-height:2.5rem;
+  font-size:25px;
+  padding:5%;
+  width:55%;
+
+  .song-post-title{
+    display:none;
+  }
+
+  .song-post img{
+    margin:2% auto;
+  }
+}
